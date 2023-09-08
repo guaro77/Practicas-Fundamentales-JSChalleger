@@ -3,7 +3,7 @@
 
 const myFunction = (a) => {
 
-return 
+    return a.slice(0, 3)
 }
 
 console.log(myFunction('abcdefg'))
